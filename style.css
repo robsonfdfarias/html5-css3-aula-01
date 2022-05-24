@@ -1,0 +1,76 @@
+body {
+    background: #f7f7f7;
+    max-width: 900px;
+    margin: auto;
+}
+body header {
+    
+}
+.photo {
+    border-radius: 50%;
+    border: #505050 solid 3px;
+}
+#title, .subtitle, .post_title {
+    color: #505050;
+    text-transform: uppercase;
+}
+#title {
+    color: #505050;
+}
+a {
+    color: #505050;
+    font-weight: bold;
+}
+a:hover {
+    color: blue;
+}
+ul {
+    /*
+    list-style-type: "\1f44d";
+    list-style-type: square;
+    list-style-image: url("sininho.png");
+    list-style-type: none;
+    */
+}
+ol{
+    list-style-type: upper-roman;
+}
+.contacts_list {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0px;
+    background-color: black;
+    color: #f7f7f7;
+    max-width: 100%;
+}
+.contacts_list li a {
+    text-decoration: none;
+}
+.contacts_list li a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+.post_title {
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.post{
+    background: rgb(255, 255, 255);
+    padding: 15px;
+    border: 3px solid #505050;
+    border-top: #505050 solid 3px;
+    border-radius: 0 20px 0 20px;
+    margin: 15px 0 5px 0;
+}
+.post_content {
+    margin: 0;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+.post_image {
+    margin-bottom: 15px;
+    width: 100%;
+}
